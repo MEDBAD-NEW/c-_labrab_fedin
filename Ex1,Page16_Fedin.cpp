@@ -25,7 +25,7 @@ int main() {
     double log3 = log(3) / log(3); // log_3 (z) = ln(z) / ln(3)
     double inner_log = pow(3, lg_2x) + 2;
     double log3_val = log(inner_log) / log(3);
-    y = 8;//sqrt(arccos3 + log3_val);
+    y = sqrt(arccos3 + log3_val);
 
     // Если y вычислено и x > 0, то точка (x, y) принадлежит области D
     cout << "y(" << x << ") = " << y << endl;
