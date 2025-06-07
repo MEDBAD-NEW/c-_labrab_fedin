@@ -20,7 +20,7 @@ int main() {
         y = pow(x, 4) + pow(3, -x) * pow(x, -5);
     }
    
-    cout << "y(" << x << ") = " << y << endl;
+    cout << y << endl;
 
     return 0;
 }
