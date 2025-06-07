@@ -9,7 +9,7 @@ int main() {
     cin >> x;
 
     // Проверка области определения D: x > 0
-    if (x <= 0) {
+    if (x <= 0 || x > 4) {
         cout << "False" << endl;
         return 0;
     }
